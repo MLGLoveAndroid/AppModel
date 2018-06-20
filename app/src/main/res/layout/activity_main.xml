@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.appmodel.MainActivity">
+
+    <Button
+        android:id="@+id/buta"
+        android:layout_width="match_parent"
+        android:text="跳转到ModelA"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/butb"
+        android:layout_width="match_parent"
+        android:text="跳转到ModelB"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/butc"
+        android:layout_width="match_parent"
+        android:text="跳转到Mo里delA的Fragment"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
